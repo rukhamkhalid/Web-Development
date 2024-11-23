@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style> /*this is element selector*/
+        h1{
+            color:blue;
+        }
+        /*div{ 
+            background-color: red;
+        }*/
+        /*class selector */
+        .red{
+            background-color: aqua;
+        }
+        /* id selector */
+        #Green{
+            color: bisque;
+            background-color: green;
+        }
+        /* child selectors */
+        div > p{
+            color: aquamarine;
+            background-color: cadetblue;
+        }
+        /*  Desendent selector*/
+       /* div  p{
+            color: aquamarine;
+            background-color: cadetblue;
+        }*/
+          /* Universal selector*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo selector*/
+        a:visited{
+             color:yellowgreen;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Element selector</h1>
+    <div>
+        <div class="red">
+            class selector
+           <article>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusamus iusto assumenda quibusdam. Quas, recusandae sequi! Dicta distinctio nam, corporis, voluptates temporibus est molestiae similique ratione dolores necessitatibus iusto eveniet.</p>
+           </article>
+        </div>
+        <div id="Green">
+            ID selector
+        </div>
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+</body>
+</html>
