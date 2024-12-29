@@ -13,7 +13,11 @@
             background-color: darkcyan;
             animation-name: animation;
             animation-duration: 7s;
-            position: relative;
+            position: absolute;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+
+            
         }
         @keyframes animation {
             from{
@@ -23,7 +27,7 @@
 
             }
             to{
-                left: 0px;
+                left: 800px;
                 top: 0px;
                 background-color: red;
             }

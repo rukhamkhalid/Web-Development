@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        div{
+            margin: 50px;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: darkolivegreen;
+            text-align: center;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function:linear;
+            transition-delay: 3s;
+        }div:hover{
+            background-color: darkslateblue;
+            color: white;
+            font-size: 40px;
+        }div:active{
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div>Ball</div>
+</body>
+</html>
