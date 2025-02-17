@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Sample Form</title> 
+</head> 
+<body> 
+    <h1>Contact Information</h1> 
+    <form action="submit.php" method="POST"> 
+        <table> 
+            <tr> 
+                <td><label for="firstName">Name</label></td> 
+                <td><input type="text" id="firstName" name="firstName" required> 
+            </tr> 
+            <tr> 
+                <td>Gender:</td> 
+                <td> 
+                    <input type="radio" id="male" name="gender" value="male"> 
+                    <label for="male">Male</label> 
+                    <input type="radio" id="female" name="gender" value="female"> 
+                    <label for="female">Female</label> 
+                    <input type="radio" id="other" name="gender" value="other"> 
+                    <label for="other">Other</label> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td><label for="email">Email:</label></td> 
+                <td><input type="email" id="email" name="email" required></td> 
+            </tr> 
+<tr> 
+<td><label for="message">Message:</label></td> 
+<td><textarea id="message" name="message" rows="4" required></textarea></td> 
+</tr> 
+</table> 
+<input type="submit" value="Submit"> 
+</form> 
+</body> 
+</html>
